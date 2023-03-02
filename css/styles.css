@@ -1,0 +1,118 @@
+body {
+  font-family: 'Roboto','Raleway', sans-serif;
+  color: #2E2F42;}
+
+/*Header CSS*/
+
+.header-website {
+  color: #E7E9FC;
+}
+
+.logo-link {
+  text-decoration: none;
+}
+
+.logo-web {
+  font-family: 'Raleway';
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: 0.03em;
+  color: #4D5AE5;
+}
+
+.logo-studio {
+  font-family: 'Raleway';
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: 0.03em;
+  color: #2E2F42;}
+
+.header-item {
+  list-style: none;
+}
+
+.header-link {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.33;
+  letter-spacing: 0.02em;
+  color: #2E2F42;
+}
+
+.header-link:active {
+  color: #404BBF;
+}
+
+.contacts {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.33;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.contacts:active {
+  color: #404BBF;
+}
+
+/*Section Hero*/
+
+.hero {
+  background-color: #2E2F42;;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1,07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+}
+
+.button-hero {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.33;
+  letter-spacing: 0.04em;
+  color: #FFFFFF;
+  background-color:#4D5AE5;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+.button-hero:hover {
+  background-color: #404bbf;
+}
+
+/*Section Information*/
+
+.title-info {
+  display: none;
+}
+
+.info-item{
+  list-style: none;
+}
+
+.info-caption {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2E2F42;
+}
+
+.info-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.33;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
