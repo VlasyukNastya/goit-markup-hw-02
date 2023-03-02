@@ -4,10 +4,6 @@ body {
 
 /*Header CSS*/
 
-.header-website {
-  color: #E7E9FC;
-}
-
 .logo-link {
   text-decoration: none;
 }
@@ -28,6 +24,15 @@ body {
   line-height: 1.33;
   letter-spacing: 0.03em;
   color: #2E2F42;}
+
+.logo-studio-footer {
+  font-family: 'Raleway';
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: 0.03em;
+  color: #F4F4FD;
+}
 
 .header-item {
   list-style: none;
@@ -59,19 +64,26 @@ body {
   color: #404BBF;
 }
 
+/*Main*/
+
+.item-main{
+  list-style: none;
+}
+
 /*Section Hero*/
 
 .hero {
-  background-color: #2E2F42;;
+  background-color: #2E2F42;
 }
 
 .title {
   font-weight: 700;
   font-size: 56px;
   line-height: 1,07;
-  text-align: center;
   letter-spacing: 0.02em;
   color: #FFFFFF;
+  text-align: center;
+  white-space:pre-line;
 }
 
 .button-hero {
@@ -97,10 +109,6 @@ body {
   display: none;
 }
 
-.info-item{
-  list-style: none;
-}
-
 .info-caption {
   font-weight: 500;
   font-size: 20px;
@@ -115,4 +123,59 @@ body {
   line-height: 1.33;
   letter-spacing: 0.02em;
   color: #434455;
+}
+
+/*Section Company Work*/
+
+.title-company-work {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #2E2F42;
+}
+
+/*Section Team*/
+
+.team {
+  background-color: #F4F4FD;
+}
+
+.title-team {
+  font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+text-align: center;
+letter-spacing: 0.02em;
+color: #2E2F42;
+}
+
+.team-caption {font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: #2E2F42;}
+
+.team-text { 
+  font-weight: 400;
+font-size: 16px;
+line-height: 1.33;
+letter-spacing: 0.02em;
+color: #434455;
+}
+
+/*Footer*/
+
+.footer-website {
+   background-color: #2E2F42;
+}
+
+.footer-text {
+  font-weight: 400;
+font-size: 16px;
+line-height: 1.33;
+letter-spacing: 0.02em;
+color: #E7E9FC;
+white-space:pre-line;
 }
