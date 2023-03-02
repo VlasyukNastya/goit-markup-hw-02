@@ -193,7 +193,7 @@ body {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.04em;
   color: #4D5AE5;
   background-color: #F4F4FD;
@@ -227,7 +227,7 @@ body {
 .cards-text {
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.33px;
+  line-height: 1.33;
   letter-spacing: 0.02em;
   color: #434455;
 }
