@@ -105,7 +105,9 @@ body {
 
 /*Section Information*/
 
-.title-info {
+.title-info, 
+.title-nav, 
+.title-cards {
   display: none;
 }
 
@@ -141,41 +143,91 @@ body {
 .team {
   background-color: #F4F4FD;
 }
+.item-team {
+  background-color: #FFFFFF;
+}
 
 .title-team {
   font-weight: 700;
-font-size: 36px;
-line-height: 1.11;
-text-align: center;
-letter-spacing: 0.02em;
-color: #2E2F42;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #2E2F42;
 }
 
-.team-caption {font-weight: 500;
-font-size: 20px;
-line-height: 1.2;
-letter-spacing: 0.02em;
-color: #2E2F42;}
+.team-caption {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2E2F42;}
 
 .team-text { 
   font-weight: 400;
-font-size: 16px;
-line-height: 1.33;
-letter-spacing: 0.02em;
-color: #434455;
+  font-size: 16px;
+  line-height: 1.33;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
 
 /*Footer*/
 
 .footer-website {
-   background-color: #2E2F42;
+  background-color: #2E2F42;
 }
 
 .footer-text {
   font-weight: 400;
-font-size: 16px;
-line-height: 1.33;
-letter-spacing: 0.02em;
-color: #E7E9FC;
-white-space:pre-line;
+  font-size: 16px;
+  line-height: 1.33;
+  letter-spacing: 0.02em;
+  color: #E7E9FC;
+  white-space:pre-line;
+}
+
+/*Portfolio Navigation*/
+
+.button-nav {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  color: #4D5AE5;
+  background-color: #F4F4FD;
+  border: 1px solid #E7E9FC;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.button-nav:hover {
+  color: #FFFFFF;
+  background-color: #404BBF;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 
+  0px 2px 1px rgba(0, 0, 0, 0.08), 
+  0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+/*Portfolio Cards*/
+
+.row-cards {
+  background-color: #FFFFFF;
+  border: 1px solid #E7E9FC;
+}
+
+.cards-caption {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2E2F42;
+}
+
+.cards-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.33px;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
