@@ -124,11 +124,6 @@ body {
 }
 
 /*Section Information*/ 
-.title-cards 
-
-.title-info {
-  display: none;
-}
 
 .info-caption {
   font-weight: 500;
@@ -204,9 +199,6 @@ body {
 }
 
 /*Portfolio Navigation*/
-.title-nav {
-  display: none;
-}
 
 .button-nav {
   font-family: 'Roboto', sans-serif;
@@ -232,9 +224,6 @@ body {
 
 /*Portfolio Cards*/
 
-.title-cards {
-  display: none;}
-
 .row-cards {
   background-color: var(--bg-color-photo);
   border: 1px solid var(--photo-border);
@@ -250,6 +239,6 @@ body {
 
 .cards-text {
   font-size: 16px;
-  line-height: 1.33;
+  line-height: 1.5;
   letter-spacing: 0.02em;
 }
