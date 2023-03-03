@@ -28,8 +28,9 @@ body {
   --selection-bttn-nav-text: #FFFFFF;
   --selection-bttn-nav: #404BBF;
 
-  --cards-text-color: #434455;
-  --cards-subtext-color:#2e2f42; 
+  --cards-text-color: #2e2f42; 
+  --cards-subtext-color: #434455;
+
 
 
   --footer-text: #E7E9FC;
