@@ -87,12 +87,6 @@ body {
   color: var(--selection-header);
 }
 
-/*Main*/
-
-.item-main{
-  list-style: none;
-}
-
 /*Section Hero*/
 
 .hero {
@@ -102,7 +96,7 @@ body {
 .title {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1,07;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   color: var(--hero-title-color);
   text-align: center;
@@ -110,11 +104,11 @@ body {
 }
 
 .button-hero {
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.33;
+  line-height: 1.5;
   letter-spacing: 0.04em;
   color: var(--bttn-color);
   background-color: var(--bttn-bg-color);
@@ -155,8 +149,9 @@ body {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
-  text-align: center;
   letter-spacing: 0.02em;
+  text-transform: capitalize;
+  text-align: center;
   color: var(--text-main);
 }
 
@@ -173,8 +168,9 @@ body {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
-  text-align: center;
   letter-spacing: 0.02em;
+  text-transform: capitalize;
+  text-align: center;
   color: var(--text-main);
 }
 
@@ -188,7 +184,7 @@ body {
 
 .team-text { 
   font-size: 16px;
-  line-height: 1.33;
+  line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
@@ -212,7 +208,7 @@ body {
 }
 
 .button-nav {
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
