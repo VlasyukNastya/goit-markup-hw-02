@@ -1,11 +1,13 @@
 body {
-  font-family: 'Roboto','Raleway', sans-serif;
-  color: #2E2F42;
+  font-family: 'Raleway','Roboto', sans-serif;
+  color: #434455;
   }
 
 :root {
   --bg-color: #2E2F42;
   --bg-second-color: #F4F4FD;
+
+  --logo-color: #4D5AE5;
 
   --color-header-link: #2E2F42;
   --color-contacts: #434455;
@@ -16,7 +18,7 @@ body {
   --bttn-bg-color: #4D5AE5;
   --selection-bttn-hero: #404bbf;
 
-  --text-main: #434455;
+  --text-main: #2E2F42;
   --bg-color-photo: #FFFFFF;
   --photo-border:#E7E9FC;
   --nav-bttn-color: #4D5AE5;
@@ -25,25 +27,23 @@ body {
   --selection-bttn-nav-text: #FFFFFF;
   --selection-bttn-nav: #404BBF;
 
-
-
-
   --footer-text: #E7E9FC;
+}
+
+.link {  
+  text-decoration: none; 
 }
 
 /*Header CSS*/
 
-.logo-link {
-  text-decoration: none;
-  font-family: 'Raleway';
+.logo {
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.33;
   letter-spacing: 0.03em;
-}
-
-.logo-web {
-  color: #4D5AE5;
+  color: var(--logo-color);
 }
 
 .logo-studio {
@@ -54,34 +54,35 @@ body {
   color: #F4F4FD;
 }
 
-.header-item {
+.list {
   list-style: none;
 }
 
 .header-link {
-  text-decoration: none;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.33;
+  line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--color-header-link)
+  color: var(--color-header-link);
 }
 
-.header-link:active, 
+.header-link:hover, 
 .header-link:focus {
   color:var(--selection-header);
 }
 
+.address {
+  font-style: normal;
+
+}
 .contacts {
   font-family: 'Roboto';
-  font-style: normal;
-  text-decoration: none;
   font-size: 16px;
-  line-height: 1.33;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-contacts);
 }
-.contacts:active,
+.contacts:hover,
 .contacts:focus {
   color: var(--selection-header);
 }
@@ -95,7 +96,7 @@ body {
 /*Section Hero*/
 
 .hero {
-  background-color: var(--bg-color)
+  background-color: var(--bg-color);
 }
 
 .title {
@@ -139,13 +140,13 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  color: var(--text-main);
 }
 
 .info-text {
   font-size: 16px;
   line-height: 1.33;
   letter-spacing: 0.02em;
-  color: var(--text-main);
 }
 
 /*Section Company Work*/
@@ -156,6 +157,7 @@ body {
   line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
+  color: var(--text-main);
 }
 
 /*Section Team*/
@@ -173,6 +175,7 @@ body {
   line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
+  color: var(--text-main);
 }
 
 .team-caption {
@@ -180,13 +183,13 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  color: var(--text-main);
 }
 
 .team-text { 
   font-size: 16px;
   line-height: 1.33;
   letter-spacing: 0.02em;
-  color: var(--text-main)
 }
 
 /*Footer*/
@@ -245,11 +248,11 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  color: var(--text-main);
 }
 
 .cards-text {
   font-size: 16px;
   line-height: 1.33;
   letter-spacing: 0.02em;
-  color: var(--text-main);
 }
