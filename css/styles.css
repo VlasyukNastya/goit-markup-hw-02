@@ -27,6 +27,8 @@ body {
   --nav-bttn-border: #E7E9FC;
   --selection-bttn-nav-text: #FFFFFF;
   --selection-bttn-nav: #404BBF;
+
+  --cards-text-color: #434455;
   --cards-subtext-color:#2e2f42; 
 
 
@@ -236,7 +238,7 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: var(--text-main);
+  color: var(--cards-text-color);
 }
 
 .cards-text {
