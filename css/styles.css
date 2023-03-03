@@ -27,6 +27,8 @@ body {
   --nav-bttn-border: #E7E9FC;
   --selection-bttn-nav-text: #FFFFFF;
   --selection-bttn-nav: #404BBF;
+  --cards-subtext-color:#2e2f42; 
+
 
   --footer-text: #E7E9FC;
 }
@@ -241,4 +243,5 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: var(--cards-subtext-color);
 }
